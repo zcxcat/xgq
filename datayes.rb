@@ -26,7 +26,6 @@ require_relative 'token'
 class Datayes
 
 HTTPS_URL='api.wmcloud.com'.freeze
-TOKEN='dbf8db71ac18905a35a764ba5cd36c24c5c2c11a73357780fe5198ac02200818'
 SUCCESS_CODE=1
 
   def fetch_data(api_path)
